@@ -32,14 +32,16 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = [
     # "aurele.com",
     # "www.aurele.com",
+    "aurele-production.up.railway.app"
     '*',
 ]
 
 CRSF_TRUSTED_ORIGINS = [
     "https://aurele.com",
     "https://www.aurele.com",
+    "aurele-production.up.railway.app",
     "http://localhost:8000",
-    "http://*.railway.production.app",
+    # "http://*.railway.production.app",
 ]
 
 
