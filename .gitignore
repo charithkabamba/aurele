@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# secret keys and settings
+
+SECRET_KEY = 'django-insecure-re-2mdf(8x8$0^6=ia*@va^h5$zm$^phnypq39=gzvo2_8l3&z'
+
 # C extensions
 *.so
 
